@@ -337,8 +337,10 @@ section {
     margin: 0 auto; /* Center the container */
     padding: 0 1rem; /* Add padding to avoid horizontal scrolling */
     width: 100%; /* Ensure the container takes full width */
-    overflow: hidden; /* Prevent horizontal overflow */
+    overflow-x: auto; /* Show horizontal scrollbar only when needed */
+    overflow-y: hidden; /* Hide vertical scrollbar */
 }
+
 
 .experience-details-container .details-container {
     flex: 1 1 calc(33.33% - 2.5rem); /* Allow each item to take up 1/3 of the container */
